@@ -13,6 +13,7 @@ public class CustomerController {
 	@Autowired
 	CustomerRepository repository;
 
+	// working 
 	@RequestMapping("/list")
 	public List<Customer> findAll() {
 		return repository.getAllCustomers();
