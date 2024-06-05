@@ -25,7 +25,7 @@ public class CustomerController {
 
 	// Example with cURL_ curl -X POST http://localhost:8080/add -H 'Content-Type: application/json'   -d '{"id":"5","name":"Mark"}'
 	
-	@RequestMapping(value = "/add", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+	@RequestMapping(value = "/add", method = RequestMethod.POST, consumes = MediaType. APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Customer> create(@RequestBody Customer customer) {
 		repository.saveCustomer(customer);
 		return new ResponseEntity<>(customer, HttpStatus.CREATED);

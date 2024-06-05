@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: rajav
+Build-Jdk: 17.0.8.1
+Implementation-Title: springboot-file-upload-download-api
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.javatech
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/springboot-file-upload-download-api
+Created-By: Maven Integration for Eclipse
+

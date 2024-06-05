@@ -13,8 +13,8 @@ public class CustomerRepository {
 
   @PostConstruct
   public void init() {
-    customerList.add(new Customer(1, "frank"));
-    customerList.add(new Customer(2, "john"));
+   customerList.add(new Customer(1, "frank"));
+   customerList.add(new Customer(2, "john"));
   }
 
   public List<Customer> getData() {

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: rajav
+Build-Jdk: 17.0.8.1
+Implementation-Title: fileUpload
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.mycompany
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/fileUpload
+Created-By: Maven Integration for Eclipse
+

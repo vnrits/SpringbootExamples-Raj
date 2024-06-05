@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Uploaded Files</title>
+    <!-- Add Bootstrap CSS for styling the page -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyqScZXv+8Cj71DhN8F2Oa7jp0w8j9lV82"
+          crossorigin="anonymous">
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff;
+        }
+
+        /* Add style for the success message */
+        .success-message {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>List of Uploaded Files</h1>
+        <!-- Display success message if "uploadStatus" is set to "success" -->
+        <div th:if="${uploadStatus == 'success'}" class="success-message">
+            File uploaded successfully!
+        </div>
+        <ul>
+            <li th:each="file : ${uploadedFiles}">
+                <span th:text="${file}"></span>
+            </li>
+        </ul>
+        <div class="text-center">
+            <a th:href="@{/}" class="btn btn-primary">Back to Upload</a>
+        </div>
+    </div>
+</body>
+
+</html>

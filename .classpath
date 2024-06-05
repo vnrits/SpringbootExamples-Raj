@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="customer-db/.mvn/wrapper"/>
+	<classpathentry kind="src" path="customer-db/src/main/java"/>
+	<classpathentry kind="src" path="demo/src/main/java"/>
+	<classpathentry kind="src" path="demo/src/test/java"/>
+	<classpathentry kind="src" path="exception/.mvn/wrapper"/>
+	<classpathentry kind="src" path="exception/src/main/java"/>
+	<classpathentry kind="src" path="exception/src/test/java"/>
+	<classpathentry kind="src" path="helloworld/.mvn/wrapper"/>
+	<classpathentry kind="src" path="helloworld/src/main/java"/>
+	<classpathentry kind="src" path="spring-crud-h2/.mvn/wrapper"/>
+	<classpathentry kind="src" path="spring-crud-h2/cruddemo/.mvn/wrapper"/>
+	<classpathentry kind="src" path="spring-crud-h2/cruddemo/src/main/java"/>
+	<classpathentry kind="lib" path="customer-db/bin/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="demo/target/demo-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="helloworld/bin/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="customer-db/target/classes"/>
+</classpath>
