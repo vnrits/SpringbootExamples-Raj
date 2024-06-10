@@ -2,11 +2,26 @@ below ware the samples as part for the course :
 
 demo
 helloworld
-customer-db
-spring-boot-file-upload-download-rest-api
-springboot-fileupload-db
 
-student-managment-eclipse
+DB : 
+Memory sample : 2.1.Student-Management-System
+
+MYSQL DB sample :
+2.2. springBootStudent-main
+2.3.cruddemo [ inbult crud operations] 
+2.4.customer-db [ adding more custom queries ] 
+
+
+file upload : 
+3.1.springboot-fileupload-db [ demonstrate this will save to DB ]  
+
+3.2.spring-boot-file-upload-download-rest-api [ this will save to physical file ] 
+
+MYSQL + UI + fileupload
+3.3.springboot-crud
+
+
+Security :
 
 
 security
