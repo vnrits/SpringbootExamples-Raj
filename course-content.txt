@@ -27,5 +27,8 @@ Security :
 security
 
 
+refer this as well :
+
+https://github.com/in28minutes/spring-boot-examples
 
  
