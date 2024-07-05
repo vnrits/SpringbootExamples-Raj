@@ -1,0 +1,10 @@
+https://chatgpt.com/share/2f09bb54-07ec-4d1d-813e-11c08bcdec75
+
+
+Key learning :
+
+Winnerdetails - images : convertToDTO and steam logic is used here
+
+Parent - Child   @JsonBackReference and   @JsonManagedReference is used here check chatgpt
+
+User - Kid : this is implemented using BK logic of showing data user -- to kids in json
